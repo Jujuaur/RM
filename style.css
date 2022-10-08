@@ -1,4 +1,12 @@
 html, body {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0;
+  border: none;
+  padding: 0;
+  background-repeat: round;
   height: 100%;
   width: 100%;
   color: #000000;
@@ -7,6 +15,7 @@ html, body {
   @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 .titulo {
+margin-top: 0%;
 font-family: 'Rubik', sans-serif;
 font-style: normal;
 font-size: 36px;
@@ -20,6 +29,7 @@ padding: 0px;
   font-size: 20px;
   align-items: center;
   text-decoration-line: underline;
+  margin-bottom: 10%;
 }
  
 .icon {
@@ -29,27 +39,29 @@ padding: 0px;
   width: 50px;
 }
 .form {
+
 background: rgba(255, 255, 255, 0.5);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 box-sizing: border-box;
-
-position: absolute;
 width: 614px;
 height: 701px;
-left: 393px;
-top: 183px;
 }
 .logo {
   padding: 10px;
 	max-width: 100%
   
 }
-.loginpass {
+input {
   background: #C1D0D6;
   width: 322px;
   height: 38px;
-  border-style:ridge;
-  border-bottom: 0.5px, #AFAFAF;
+  border:none;
+  border-bottom: solid 1px, #AFAFAF;
+  border-radius: 2px;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 2.5%;
 }
 
   
