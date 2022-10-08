@@ -41,7 +41,8 @@ body {
 .button {
   display: flex;
   margin: 10px auto;
-  width: 50px;
+  padding: 10px 20px;
+  font-family: "Inter", sans-serif;
 }
 .form {
   background: rgba(255, 255, 255, 0.5);
