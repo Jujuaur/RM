@@ -32,7 +32,6 @@ body {
   align-items: center;
   text-decoration-line: underline;
   margin-bottom: 10%;
-  color: #000000;
 }
 
 .icon {
@@ -60,7 +59,7 @@ input {
   width: 322px;
   height: 38px;
   border: none;
-  border-bottom: solid 1px, #afafaf;
+  border-bottom: solid 1px #afafaf;
   border-radius: 2px;
   font-family: "Inter", sans-serif;
   font-style: italic;
