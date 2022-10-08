@@ -1,6 +1,58 @@
 html, body {
   height: 100%;
   width: 100%;
-  color: #dd61ff;
+  color: #000000;
   text-align: center;
-  background-color: #f6c0f7}
+  background-color: #ffffff}
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+.titulo {
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-size: 36px;
+align-items: center;
+text-align: center;
+padding: 0px;
+}
+.registrar {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  align-items: center;
+  text-decoration-line: underline;
+}
+ 
+.icon {
+  opacity: 0.4;
+}
+.button {
+  width: 50px;
+}
+.form {
+background: rgba(255, 255, 255, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+box-sizing: border-box;
+
+position: absolute;
+width: 614px;
+height: 701px;
+left: 393px;
+top: 183px;
+}
+.logo {
+  padding: 10px;
+	max-width: 100%
+  
+}
+.loginpass {
+  background: #C1D0D6;
+  width: 322px;
+  height: 38px;
+  border-style:ridge;
+  border-bottom: 0.5px, #AFAFAF;
+}
+
+  
+
+  
+ 
