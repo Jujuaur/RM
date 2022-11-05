@@ -1,0 +1,16 @@
+html,
+body {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background-repeat: round;
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+}
