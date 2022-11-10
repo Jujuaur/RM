@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registre-se</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Cadastre-se</title>
   </head>
   <body>
-    <form> 
-      <img src="assets/img/logo-png">
-      <h2>CADASTRO</h2>
+    <form class="form"> 
+      <img class="logo" src="../assets/img/logo.png">
+      <h2 class="titulo">CADASTRO</h2>
       <main>
         <div>
-          <img class="icon" src="assets/icons/user.svg">
+          <img class="icon" src="../assets/icons/user.svg">
           <input
             type="text"
             name="Nome Completo"
@@ -21,7 +22,7 @@
           />
         </div>
         <div>
-          <img class="icon" src="assets/icons/file.svg">
+          <img class="icon" src="../assets/icons/file.svg">
           <input
           type="CPF"
           name="CPF"
@@ -30,7 +31,7 @@
           />
         </div>
         <div>
-          <img class="icon" src="assets/icons/users.svg">
+          <img class="icon" src="../assets/icons/users.svg">
           <input
           type="text"
           name="Turma"
@@ -39,7 +40,7 @@
           >
         </div>
         <div>
-          <img class="icon" src="assets/icons/unlock.svg">
+          <img class="icon" src="../assets/icons/unlock.svg">
           <input
           type="text"
           name="Senha"
@@ -48,13 +49,14 @@
           >
         </div>
         <div>
-          <img class="icon" src="assets/icons/lock.svg">
+          <img class="icon" src="../assets/icons/lock.svg">
           <input
           type="text"
           name="Confirmar Senha"
           placeholder="Confirmar Senha"
           >
         </div>
+      <button class="button" type="submit">Cadastrar</button>
       </main>
     </form>
   </body>
