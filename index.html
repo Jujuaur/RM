@@ -5,23 +5,27 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
   <head></head>
   <body background="assets/img/irra 1.png">
-    <form class="form">
+    <form id="formLogin" class="form">
       <img class="logo" src="assets/img/logo.png" />
       <h2 class="titulo">LOGIN</h2>
       <main>
         <div>
           <img class="icon" src="assets/icons/user.svg" />
           <input
+            id="cpf"
             class="loginpass"
             type="text"
             name="CPF"
+            onkeyup="formataCPF(this.value)"
             placeholder="CPF"
+            maxlength="11"
             required
           />
         </div>
         <div>
           <img class="icon" src="assets/icons/lock.svg" />
           <input
+            id="senha"
             class="loginpass"
             type="password"
             name="Senha"
@@ -30,9 +34,10 @@
           />
         </div>
         <a href="/cadastro/index.html" class="registrar">Registre-se </a>
-        <button class="button" type="submit">Entrar</button>
+        <button id="btnLogin" class="button" type="submit">Entrar</button>
         <a class="RM22">Registro de Manutenção 22</a>
       </main>
     </form>
+    <script src="js/login.js"></script>
   </body>
 </html>
