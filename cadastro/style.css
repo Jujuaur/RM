@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Rubik&display=swap');
 html,
 body {
     justify-content: center;
@@ -15,8 +17,6 @@ body {
     background-color: #ffffff;
     background-image:url(../assets/img/irra\ 1.png)
 }
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 .titulo {
     margin-top: 0%;
     font-family: "Rubik", sans-serif;
@@ -57,7 +57,21 @@ input {
     margin: 10px auto;
     padding: 10px 20px;
     font-family: "Inter", sans-serif;
+    font-style: italic;
+    background-color: #D6D6D6;
+    border-color: #78696973;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 189px;
+    height: 51px;
+    flex-direction: column;
+    margin-top: 30px;
   }
+
   .icon {
     opacity: 0.4;
   }
