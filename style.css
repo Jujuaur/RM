@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 html,
 body {
   justify-content: center;
@@ -14,16 +16,14 @@ body {
   text-align: center;
   background-color: #ffffff;
 }
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 .titulo {
-  margin-top: 0%;
+  margin-top: 1px;
+  margin-bottom: 50px;
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-size: 36px;
   align-items: center;
   text-align: center;
-  padding: 0px;
 }
 .registrar {
   font-family: "Inter", sans-serif;
@@ -32,6 +32,7 @@ body {
   align-items: center;
   text-decoration-line: underline;
   margin-bottom: 10%;
+  color: #0000009f;
 }
 
 .icon {
@@ -42,6 +43,19 @@ body {
   margin: 10px auto;
   padding: 10px 20px;
   font-family: "Inter", sans-serif;
+  font-style: italic;
+  background-color: #D6D6D6;
+  border-color: #78696973;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 189px;
+  height: 51px;
+  flex-direction: column;
+  margin-top: 30px;
 }
 .form {
   background: rgba(255, 255, 255, 0.5);
@@ -51,8 +65,12 @@ body {
   height: 701px;
 }
 .logo {
-  padding: 10px;
+  padding-top: 20px;
   max-width: 100%;
+  width: 230px;
+  height: 235px;
+  left: 602px;
+  top: 188px;
 }
 input {
   background: #c1d0d6;
@@ -64,5 +82,18 @@ input {
   font-family: "Inter", sans-serif;
   font-style: italic;
   font-size: 20px;
-  margin-bottom: 2.5%;
+  margin-bottom: 5%;
+}
+.RM22 {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #00000069;
+  padding-top: 43px;
 }
