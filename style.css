@@ -1,4 +1,6 @@
 html,
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 body {
   justify-content: center;
   align-content: center;
@@ -14,8 +16,6 @@ body {
   text-align: center;
   background-color: #ffffff;
 }
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 .titulo {
   margin-top: 0%;
   font-family: "Rubik", sans-serif;
