@@ -10,7 +10,7 @@ function validarLogin(cpf, senha) {
 
 function formataCPF(cpf) {
   //retira os caracteres indesejados...
-  cpf = cpf.replace(/[^\d]/g, "");
+  cpf = cpf.replace(/[^\d]/g, ""); 
 
   //realizar a formatação...
   cpfInput.value = cpf.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, "$1.$2.$3-$4");
