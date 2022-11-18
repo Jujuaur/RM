@@ -17,8 +17,12 @@ body {
 }
 @media only screen and (max-width:500000px) {
   .form {
-  background: rgb(252, 151, 247);
-  }
+  margin: 0 20px !important;
+}
+  input {
+    width: 265px !important;
+    height: 38px;
+}
 }
 
 .titulo {
