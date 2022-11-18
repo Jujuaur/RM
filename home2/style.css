@@ -41,7 +41,6 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  line-height: 77px;
   align-items: center;
   text-align: center;
   margin: 0;
@@ -73,5 +72,14 @@ body {
     align-self: center;
     width: 80vw;
     height: auto;
+  }
+}
+
+@media only screen and (max-width: 452px) {
+  .titulo {
+    font-size: 25px;
+  }
+  .login {
+    font-size: 20px;
   }
 }
