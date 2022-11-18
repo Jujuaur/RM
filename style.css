@@ -14,8 +14,17 @@ body {
   width: 100%;
   color: #000000;
   text-align: center;
-  background-color: #ffffff;
 }
+@media only screen and (max-width:500000px) {
+  .form {
+  margin: 0 20px !important;
+}
+  input {
+    width: 265px !important;
+    height: 38px;
+}
+}
+
 .titulo {
   margin-top: 1px;
   margin-bottom: 50px;
@@ -34,7 +43,6 @@ body {
   margin-bottom: 10%;
   color: #0000009f;
 }
-
 .icon {
   opacity: 0.4;
 }
@@ -63,6 +71,7 @@ body {
   box-sizing: border-box;
   width: 614px;
   height: 701px;
+  margin: 0 auto;
 }
 .logo {
   padding-top: 20px;

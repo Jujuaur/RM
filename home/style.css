@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+html,
+body {
+margin: 0;
+border: none;
+padding: 0;
+background-repeat: round;
+height: 100%;
+background-color: #ffff;
+background-image: url(../assets/img/backgroundhome.jpg);
+}
+.cabeçalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0.75); 
+}
+.cabeçalho-imagem {
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+.cabeçalho-nav {
+    display:flex;
+    gap: 40px; 
+}
+.cabeçalho-item {
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 35px
+
+}
+.conteudo {
+    border-top: 0.4px solid #FFF2E7; 
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+
+}
+.conteudo-principal-escrito {
+    height: 50vh;
+    width: 30vw;    
+    display: flex;
+    margin-top: 55px;
+    flex-direction: column; 
+    background-color:rgba(217, 217, 217, 0.8);
+    margin-left: 100px;
+}
+
+.conteudo-principal-escrito-titulo {
+    display: flex;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color:#000000;
+    padding-left: 24px;
+}
+.conteudo-principal-escrito-desenvolvimento {
+    display: flex;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    padding-left: 24px;
+}
