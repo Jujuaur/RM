@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+html,
+
+body {
+    display: flex;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background-repeat: round;
+    height: 100%;
+    width: 100%;
+}
+.logo {
+    justify-content: flex-start;
+    width: 280px;
+    height: 280px;
+    left: 81px;
+    top: 59px;
+    padding-top: 500px;
+    padding-left: 80px;
+}
+.homenzinhos {
+    width: 580px;
+    height: 350px;
+    padding-top:5px;
+    padding-left: 900px;
+}
+.titulo {
+    width: 800px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 500px;
+    padding-top: 250px;
+    color: rgb(255, 255, 255);
+}
+.login {
+    width: 500px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    padding-left: 650px;
+    padding-top: 500px;
+    color: rgb(255, 255, 255);
+}

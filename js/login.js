@@ -16,9 +16,9 @@ function formataCPF(cpf) {
   cpfInput.value = cpf.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, "$1.$2.$3-$4");
 }
 
-formLogin.addEventListener("submit", function (e) {
-  e.preventDefault(); // Impede o comportamento padrão do submit do formulário (recarregar a página)
+//formLogin.addEventListener("submit", function (e) {
+ // e.preventDefault(); // Impede o comportamento padrão do submit do formulário (recarregar a página)
 
-  alert("O login ainda está em desenvolvimento!");
-  validarLogin(cpfInput.value, senhaInput.value);
-});
+  //alert("O login ainda está em desenvolvimento!");
+  //validarLogin(cpfInput.value, senhaInput.value);
+//});
