@@ -17,6 +17,15 @@ body {
     background-color: #ffffff;
     background-image:url(../assets/img/irra\ 1.png)
 }
+@media only screen and (max-width:500000px) {
+  .form {
+  margin: 0 20px !important;
+}
+  input {
+    width: 265px !important;
+    height: 38px;
+}
+}
 .titulo {
     margin-top: 0%;
     font-family: "Rubik", sans-serif;
