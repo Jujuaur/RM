@@ -1,41 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nav page</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-	<header class="cabeçalho">
-		<img class="cabeçalho-imagem" src="../assets/img/logo.png">
-			<nav class="cabeçalho-nav"> 
-				<a class="cabeçalho-item">Histórico de Manutenção</a>
-				<a class="cabeçalho-item">Plano de Lubrificação</a>
-				<a class="cabeçalho-item">Catálogo de Fabricante</a>
-				<a class="cabeçalho-item">Plano de Demonstração</a>
-				<a class="cabeçalho-item">Plano de Segurança</a>
-			</nav>
-		</header>	
-	<main class="conteudo">
-		<selection class="conteudo-principal">
-			<div class="conteudo-principal-escrito">
-				<h1 class="conteudo-principal-escrito-titulo">O que é?</h1>
-					<p class="conteudo-principal-escrito-desenvolvimento">
-						Nosso site consiste em um banco de dados, com arquivos do torno/fresadora totalmente digitalizados, encaminhado a partir de um qr code.
-			er		</p>
+    <title>nav page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <script></script>
+  <body>
+    <header class="cabeçalho">
+      <img class="cabeçalho-imagem" src="../assets/img/logo.png" />
+      <nav class="cabeçalho-nav">
+        <a class="cabeçalho-item">Histórico de Manutenção</a>
+        <a class="cabeçalho-item">Plano de Lubrificação</a>
+        <a class="cabeçalho-item">Catálogo de Fabricante</a>
+        <a class="cabeçalho-item">Plano de Demonstração</a>
+        <a class="cabeçalho-item">Plano de Segurança</a>
+      </nav>
+    </header>
+    <button onclick="exibeMenu()">Abrir</button>
+    <!-- Fiz a lógica do botão, deixar mais suave a transição e estilizar tá contigo agora ;) -->
+    <div id="menu" style="display: none">
+      <button onclick="exibeMenu()">Fechar</button>
+      <a class="cabeçalho-item">Histórico de Manutenção</a>
+      <a class="cabeçalho-item">Plano de Lubrificação</a>
+      <a class="cabeçalho-item">Catálogo de Fabricante</a>
+      <a class="cabeçalho-item">Plano de Demonstração</a>
+      <a class="cabeçalho-item">Plano de Segurança</a>
+    </div>
+    <main class="conteudo">
+      <!-- <selection class="conteudo-principal">
+				<div class="conteudo-principal-escrito">
+					<h1 class="conteudo-principal-escrito-titulo">O que é?</h1>
+						<p class="conteudo-principal-escrito-desenvolvimento">
+							Nosso site consiste em um banco de dados, com arquivos do torno/fresadora totalmente digitalizados, encaminhado a partir de um qr code.
+				er		</p>
 			</div>
-		</selection>
-		<selection class="conteudo-secundario">
-			<div class="conteudo-secudario-escrito">
-				<h1 class="conteudo-secundario-escrito-titulo">Por Quê?</h1>
+			MOTIVO DA MINHA RISADA FOI ESSE "er" perdidaço
+		</selection> -->
+      <section>
+        <h1 class="title-conteudo-principal">O que é?</h1>
+        <p class="text-conteudo-principal">
+          Nosso site consiste em um banco de dados, com arquivos do
+          torno/fresadora totalmente digitalizados, encaminhado a partir de um
+          qr code.
+        </p>
+      </section>
+      <!-- Remoção da div e troca de selection pra section
+				Section faz um papel de div e por si só é mais semântica, indicando que é uma sessão do sistema com conteúdo dentro 
+				Troquei as classes dos textos para um único no título e parágrafo, economizando declaração do css
+			-->
+
+      <!-- <selection class="conteudo-secundario">
+				<div class="conteudo-secudario-escrito">
+					<h1 class="conteudo-secundario-escrito-titulo">Por Quê?</h1>
 					<p class="conteudo-secundario-escrito-desenvolvimento"> 
 						Nosso site foi criado com o objetivo de facilitar o acesso aos arquivos do torno/fresadora, tornando mais prático e rápido. além de registrar o usuário da oficina de usinagem em determinado período.
 					</p>
-			</div>
-		</selection>
-	</main>
-</body>
-	
+				</div>
+			</selection> -->
+      <section>
+        <h1 class="title-conteudo-principal">Por Quê?</h1>
+        <p class="text-conteudo-principal">
+          Nosso site foi criado com o objetivo de facilitar o acesso aos
+          arquivos do torno/fresadora, tornando mais prático e rápido. Além de
+          registrar o usuário da oficina de usinagem em determinado período.
+        </p>
+      </section>
+    </main>
+    <script src="../js/login.js"></script>
+  </body>
 </html>
