@@ -7,7 +7,6 @@
     <title>nav page</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <script></script>
   <body>
     <header class="cabeçalho">
       <img class="cabeçalho-imagem" src="../assets/img/logo.png" />
@@ -19,10 +18,10 @@
         <a class="cabeçalho-item">Plano de Segurança</a>
       </nav>
     </header>
-    <button onclick="exibeMenu()">Abrir</button>
+    <button id="btn-menu-open">Abrir</button>
     <!-- Fiz a lógica do botão, deixar mais suave a transição e estilizar tá contigo agora ;) -->
     <div id="menu" style="display: none">
-      <button onclick="exibeMenu()">Fechar</button>
+      <button id="btn-menu-close">Fechar</button>
       <a class="cabeçalho-item">Histórico de Manutenção</a>
       <a class="cabeçalho-item">Plano de Lubrificação</a>
       <a class="cabeçalho-item">Catálogo de Fabricante</a>
@@ -69,6 +68,6 @@
         </p>
       </section>
     </main>
-    <script src="../js/login.js"></script>
+    <script type="module" src="./index-home.js"></script>
   </body>
 </html>
