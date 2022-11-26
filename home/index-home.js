@@ -12,8 +12,12 @@ function exibeMenu() {
   }
 }
 
-btnClose.addEventListener("click", exibeMenu());
-btnOpen.addEventListener("click", exibeMenu());
+btnClose.addEventListener("click", function () {
+  exibeMenu();
+});
+btnOpen.addEventListener("click", function () {
+  exibeMenu();
+});
 
 if (getSession() === "Não possui sessão") {
   backLogin();
