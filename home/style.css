@@ -53,7 +53,8 @@ body {
   height: 100vh;
   background-color: white;
 }
-#menu > button {
+#menu > button,
+#btn-menu-open {
   position: absolute;
   border: none;
   background-color: transparent;
@@ -63,6 +64,17 @@ body {
   right: 20px;
   cursor: pointer;
   /* Dá a mãozinha ao passar o mouse no botão */
+}
+
+#btn-menu-open {
+  display: none;
+  position: relative;
+  align-self: center;
+}
+
+#btn-menu-open > img {
+  width: auto;
+  height: 100%;
 }
 .conteudo {
   display: flex;
@@ -170,3 +182,15 @@ Tornasse desnecessário uma vez que controlamos pela div pai e genericamente os 
   text-align: center;
   margin-top: 0%;
 } */
+
+@media only screen and (max-width: 600px) {
+  #btn-menu-open {
+    display: flex;
+  }
+  .cabeçalho-nav {
+    display: none;
+  }
+  .cabeçalho {
+    justify-content: space-between;
+  }
+}
