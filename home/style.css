@@ -19,20 +19,18 @@ body {
 */
 .cabeçalho {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: rgba(255, 255, 255, 0.75);
+  flex-direction: column;
+  position: absolute;
 }
 .cabeçalho-imagem {
-  padding: 20px;
-  width: 150px;
+  padding-left: 280px;
+  width: 100px;  
   /* position: absolute; Não precisamos dele alinhado a direita nesse caso (visão de pc)
   Possivelmente em caso de celular ele irá para a direita e ficará contido dentro do menu (apenas ideia)*/
 }
-.cabeçalho-nav {
-  display: flex;
-  gap: 40px;
+.menu-icon {
+  padding-left: 290px;
+  margin-top: 20px;
 }
 .cabeçalho-item {
   font-family: "Inter", sans-serif;
@@ -79,7 +77,7 @@ body {
 .conteudo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 20px;
   justify-content: space-around;
   margin: 55px auto; /*margin vertical de 55px e horizontal de x o suficiente para alinhar o item ao centro/*
   padding-bottom: 55px; /*Espaçamento interno na parte inferior de 55px*/
@@ -88,8 +86,8 @@ body {
 
 .conteudo > section {
   /* Define que toda section filha direta de .conteudo terá esse estilo do escopo */
-  min-height: 60vh;
-  max-width: 40vw;
+  min-height: 40vh;
+  max-width: 64vw;
   height: auto;
   width: auto;
   /*Deixei altura e largura auto pra que se adapte quando o texto necessitar de mais espaço, limitando assim o máximo da largura que o quadro pode ter
@@ -98,40 +96,21 @@ body {
   flex-direction: column;
   background-color: rgba(217, 217, 217, 0.8);
 }
-/* .conteudo-principal-escrito {
-    height: 60vh;
-    width: 40vw;    
-    display: flex;
-    margin-top: 55px;
-    flex-direction: column; 
-    background-color:rgba(217, 217, 217, 0.8);
-    margin-left: 100px;
-} 
-Tornasse desnecessário uma vez que controlamos pela div pai e genericamente os sections*/
 
 .title-conteudo-principal {
   text-align: center;
   font-family: "Prompt", sans-serif;
   font-weight: 400;
-  font-size: 64px;
+  font-size: 20px;
   color: #000000;
-  padding-left: 24px;
+  padding-left: 10px;
   padding-bottom: 0px;
 }
-/* .conteudo-principal-escrito-titulo {
-  text-align: center;
-  font-family: "Prompt", sans-serif;
-  font-weight: 400;
-  font-size: 64px;
-  color: #000000;
-  padding-left: 24px;
-  padding-bottom: 0px;
-} */
 .text-conteudo-principal {
   display: flex;
   font-family: "Inter" sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 20px;
   color: #000000;
   padding-left: 40px;
   padding-right: 40px;
