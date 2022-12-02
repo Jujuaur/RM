@@ -21,17 +21,24 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
+  Gap: 10px;
+  Padding: 10px , 10px;
+  right: 0;
+  top: 0;
 }
+
 .cabeçalho-imagem {
   padding-left: 280px;
   width: 100px;  
+  position: relative;
   /* position: absolute; Não precisamos dele alinhado a direita nesse caso (visão de pc)
   Possivelmente em caso de celular ele irá para a direita e ficará contido dentro do menu (apenas ideia)*/
 }
 .menu-icon {
   padding-left: 290px;
   margin-top: 20px;
-  
+  position: relative;
+
 }
 .cabeçalho-item {
   font-family: "Inter", sans-serif;
@@ -51,18 +58,18 @@ body {
   height: 100vh;
   background-color: white;
 }
-#menu > button,
+#menu > button, 
+
 #btn-menu-open {
-  border: none;
-  justify-content: flex-end;
-  padding-left: 200px;
-  width: 100px;
-  height: 100px;
-  top: 20px;
-  cursor: pointer;
-  background-color: #D9D9D9;
-  border-radius: 50%;
-  /* Dá a mãozinha ao passar o mouse no botão */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  Gap: 10px;
+  Padding: 10px , 10px;
+  right: 10px;
+  top: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 #btn-menu-open {
@@ -174,3 +181,4 @@ body {
     justify-content: space-between;
   }
 }
+
