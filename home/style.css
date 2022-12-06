@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  Gap: 10px;
+  Gap: 20px;
   Padding: 10px , 10px;
   right: 0;
   top: 0;
@@ -29,6 +29,7 @@ body {
 
 .cabeçalho-imagem {
   padding-left: 280px;
+  padding-top: 20px;
   width: 100px;  
   position: relative;
   /* position: absolute; Não precisamos dele alinhado a direita nesse caso (visão de pc)
@@ -36,7 +37,7 @@ body {
 }
 .menu-icon {
   padding-left: 290px;
-  margin-top: 20px;
+  margin-top: 50px;
   position: relative;
 
 }
@@ -87,9 +88,9 @@ body {
   flex-direction: column;
   padding-left: 20px;
   justify-content: space-around;
-  margin: 55px auto; /*margin vertical de 55px e horizontal de x o suficiente para alinhar o item ao centro/*
+  margin: 20px auto; /*margin vertical de 55px e horizontal de x o suficiente para alinhar o item ao centro/*
   padding-bottom: 55px; /*Espaçamento interno na parte inferior de 55px*/
-  gap: 55px; /*Adição de um espaçamento entre os elementos filhos de 55px*/
+  gap: 20px; /*Adição de um espaçamento entre os elementos filhos de 55px*/
 }
 
 .conteudo > section {
