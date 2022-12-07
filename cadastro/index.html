@@ -8,7 +8,7 @@
     <title>Cadastre-se</title>
   </head>
   <body>
-    <form id="formLogin" action="../index.html" class="form"> 
+    <form id="formlogin" action="../index.html" class="form"> 
       <img class="logo" src="../assets/img/logo.png">
       <h2 class="titulo">CADASTRO</h2>
       <main>
@@ -18,6 +18,8 @@
             type="text"
             name="Nome Completo"
             placeholder="Nome Completo"
+            onchange="nomeus(this.value)"
+            onkeyup="nomeus(this.value)"
             requiried 
           />
         </div>
@@ -52,15 +54,19 @@
           type="text"
           name="Senha"
           placeholder="Senha"
+          minlength="8"
           required
           >
         </div>
         <div>
           <img class="icon" src="../assets/icons/lock.svg">
           <input
+          id="confsenha"
           type="text"
           name="Confirmar Senha"
           placeholder="Confirmar Senha"
+          minlength="8"
+          requiredS
           >
         </div>
      <button style="color: rgb(51, 51, 51);" class="button" type="submit">Cadastrar</button>
