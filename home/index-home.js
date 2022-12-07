@@ -7,6 +7,7 @@ function exibeMenu() {
   const menu = document.querySelector("#menu");
   if (window.getComputedStyle(menu).display === "none") {
     menu.style.display = "flex";
+    menu.style.borderRadius = '5px';
   } else {
     menu.style.display = "none";
   }

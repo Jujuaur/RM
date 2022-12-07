@@ -8,7 +8,7 @@
     <title>Cadastre-se</title>
   </head>
   <body>
-    <form id="formlogin" action="../index.html" class="form"> 
+    <form id="formcadastro" class="form"> 
       <img class="logo" src="../assets/img/logo.png">
       <h2 class="titulo">CADASTRO</h2>
       <main>
@@ -16,10 +16,8 @@
           <img class="icon" src="../assets/icons/user.svg">
           <input
             type="text"
-            name="Nome Completo"
+            name="nome"
             placeholder="Nome Completo"
-            onchange="nomeus(this.value)"
-            onkeyup="nomeus(this.value)"
             requiried 
           />
         </div>
@@ -41,6 +39,7 @@
         <div>
           <img class="icon" src="../assets/icons/users.svg">
           <input
+          id="turma"
           type="text"
           name="Turma"
           placeholder="Turma"
@@ -72,6 +71,6 @@
      <button style="color: rgb(51, 51, 51);" class="button" type="submit">Cadastrar</button>
       </main>
     </form>
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./index-cadastro.js"></script>
   </body>
 </html>

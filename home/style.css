@@ -28,8 +28,8 @@ body {
 }
 
 .cabeçalho-imagem {
-  padding-left: 280px;
-  padding-top: 20px;
+  padding-left: 170px;
+  padding-top: 10px;
   width: 100px;  
   position: relative;
   /* position: absolute; Não precisamos dele alinhado a direita nesse caso (visão de pc)
@@ -45,17 +45,18 @@ body {
   font-family: "Inter", sans-serif;
   color: #000000;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 22px;
   text-align: center;
+  
 }
 #menu {
   flex-direction: column;
   align-items: center;
   position: fixed;
-  gap: 12px;
+  gap: 40px;
   top: 0;
   right: 0;
-  width: 80vw;
+  width: 70vw;
   height: 100vh;
   background-color: white;
 }
@@ -63,6 +64,8 @@ body {
 
 #btn-menu-open {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   position: absolute;
   gap: 10px;
@@ -71,19 +74,29 @@ body {
   top: 80px;
   height: 80px;
   max-width: 80px;
-
 }
-
 #btn-menu-open {
   display: none;
- 
-  
 }
 
 #btn-menu-open > img {
   width: auto;
   height: 80px;
 }
+#caralho {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#btn-menu-close {
+  position: absolute;
+  left: 20px;
+  gap: 10px;
+  width: 80px;
+  height: 84px;
+  top: 16px;
+}
+  
 .conteudo {
   display: flex;
   flex-direction: column;
@@ -126,6 +139,17 @@ body {
   padding-right: 40px;
   margin-top: 0%;
   text-align: center;
+}
+.tituloz {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #00000059;
 }
 
 /* Remoção de CSS que foi reduzido a uma classe generalizada no html */

@@ -27,3 +27,4 @@ if (getSession() !== "Não possui sessão") {
   console.log("session ", getSession());
   login(getSession(), "LoGinWhiTH_SeSSIon");
 }
+
