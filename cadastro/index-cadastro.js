@@ -1,5 +1,5 @@
 import { validarLogin, validarSenha } from "../js/assets/index.js";
-import {cadastraUsuario} from '../js/firebase/fire-users.js';
+import {cadastraUsuario, login } from '../js/firebase/fire-users.js';
 import { getSession } from "../js/session/index.js";
 
 const cpfInput = document.querySelector("#cpf");
