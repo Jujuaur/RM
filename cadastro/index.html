@@ -8,7 +8,7 @@
     <title>Cadastre-se</title>
   </head>
   <body>
-    <form action="../index.html" class="form"> 
+    <form id="formcadastro" class="form" autocomplete="off"> 
       <img class="logo" src="../assets/img/logo.png">
       <h2 class="titulo">CADASTRO</h2>
       <main>
@@ -16,7 +16,8 @@
           <img class="icon" src="../assets/icons/user.svg">
           <input
             type="text"
-            name="Nome Completo"
+            id="nome"
+            name="nome"
             placeholder="Nome Completo"
             requiried 
           />
@@ -24,40 +25,57 @@
         <div>
           <img class="icon" src="../assets/icons/file.svg">
           <input
-          type="CPF"
-          name="CPF"
-          placeholder="CPF"
-          required
+            id="cpf"
+            class="loginpass"
+            type="text"
+            name="CPF"
+            onchange="formataCPF(this.value)"
+            onkeyup="formataCPF(this.value)"
+            placeholder="CPF"
+            maxlength="11"
+            minlength="11"
+            required
+            autocomplete="off"
           />
         </div>
         <div>
           <img class="icon" src="../assets/icons/users.svg">
           <input
+          id="turma"
           type="text"
           name="Turma"
           placeholder="Turma"
           required
+          autocomplete="off"
           >
         </div>
         <div>
           <img class="icon" src="../assets/icons/unlock.svg">
           <input
+          id="senha"
           type="text"
           name="Senha"
           placeholder="Senha"
+          minlength="8"
           required
+          autocomplete="off"
           >
         </div>
         <div>
           <img class="icon" src="../assets/icons/lock.svg">
           <input
+          id="confsenha"
           type="text"
           name="Confirmar Senha"
           placeholder="Confirmar Senha"
+          minlength="8"
+          required
+          autocomplete="off"
           >
         </div>
      <button style="color: rgb(51, 51, 51);" class="button" type="submit">Cadastrar</button>
       </main>
     </form>
+    <script type="module" src="./index-cadastro.js"></script>
   </body>
 </html>
