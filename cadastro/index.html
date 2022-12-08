@@ -8,7 +8,7 @@
     <title>Cadastre-se</title>
   </head>
   <body>
-    <form id="formcadastro" class="form"> 
+    <form id="formcadastro" class="form" autocomplete="off"> 
       <img class="logo" src="../assets/img/logo.png">
       <h2 class="titulo">CADASTRO</h2>
       <main>
@@ -16,6 +16,7 @@
           <img class="icon" src="../assets/icons/user.svg">
           <input
             type="text"
+            id="nome"
             name="nome"
             placeholder="Nome Completo"
             requiried 
@@ -34,6 +35,7 @@
             maxlength="11"
             minlength="11"
             required
+            autocomplete="off"
           />
         </div>
         <div>
@@ -44,6 +46,7 @@
           name="Turma"
           placeholder="Turma"
           required
+          autocomplete="off"
           >
         </div>
         <div>
@@ -55,6 +58,7 @@
           placeholder="Senha"
           minlength="8"
           required
+          autocomplete="off"
           >
         </div>
         <div>
@@ -65,7 +69,8 @@
           name="Confirmar Senha"
           placeholder="Confirmar Senha"
           minlength="8"
-          requiredS
+          required
+          autocomplete="off"
           >
         </div>
      <button style="color: rgb(51, 51, 51);" class="button" type="submit">Cadastrar</button>

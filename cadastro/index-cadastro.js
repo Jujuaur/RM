@@ -33,8 +33,6 @@ if (getSession() !== "Não possui sessão") {
     login(getSession(), "LoGinWhiTH_SeSSIon");
 }
 
-alert('js de cadastro');
-
   // NOTA: declaração de login recebe dois argumentos (cpf, senha)
 //   export async function login(cpf, senha) {
 //     const docRef = doc(db, "users", cpf);

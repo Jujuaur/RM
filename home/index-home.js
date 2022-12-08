@@ -12,7 +12,13 @@ function exibeMenu() {
     menu.style.display = "none";
   }
 }
+window.downloadPDF = function downloadPDF(arquivo) {
+  console.log(arquivo);
+  downloadFile(arquivo);
+}
 
+//NOTA que essa função aqui tá importada na linha 2 -> downloadFile('Catalogo do fabricante.pdf')
+//To te cuidando, pode escrever acima desse comentário -------- OLHA SÓ um nome sem palavrão PARABÉNS
 btnClose.addEventListener("click", function () {
   exibeMenu();
 });

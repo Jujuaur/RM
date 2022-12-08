@@ -13,7 +13,7 @@ export async function cadastraUsuario(nome, cpf, turma, senha) {
       turma: turma,
       senha: senha,
     });
-    window.location.href = "/";
+    window.location.href = window.location.origin;
   } catch (e) {
     console.error("Error adding document: ", e);
   }
